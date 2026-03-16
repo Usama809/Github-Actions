@@ -1,0 +1,13 @@
+name: Usama Bin Amjad 
+
+on:
+  push:
+    branches: [ Default ]
+
+jobs:
+  demo:
+     runs-on: ubuntu-latest
+
+     steps:
+       - name: Greetings
+         run: echo "Hello from Apun"
